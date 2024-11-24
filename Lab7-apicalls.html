@@ -31,7 +31,7 @@
 
         const lat = data.latitude;
         const lon = data.longitude;
-        const weatherAPIKey = 'your_openweather_api_key';
+        const weatherAPIKey = '3cee41501b694e71f3b64648ddfd313b';
         return fetch('https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${weatherAPIKey}&units=metric');
       })
       .then(response => response.json())
